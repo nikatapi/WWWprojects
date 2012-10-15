@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html{
+		background-image: url("backgrounds/wood.jpg");
+
+
+}
+
+
+
+
+#switchform{
+	color:#CCCCCC;
+	
+	}
+/*   HEADER   */
+
+header.vcard{
+	background-color:#999999;
+	margin-bottom: 10px; 
+	overflow: hidden;
+	/*font-size:16px;*/
+	
+}
+
+.fn{
+	text-align:center;
+	font:"Comic Sans MS", cursive;
+	font-size:35px;
+	color:#000;
+}
+
+.role{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;	
+	font-weight:bold;
+    color:#000;
+}
+
+.contact{
+	color:#000;
+	font:"Comic Sans MS", cursive;
+	font-size:27px;
+	/*text-align: right;*/
+	
+}
+
+ul{
+		text-align: center;
+		list-style: none;
+}
+
+/*  BODY     */
+body{
+	/*background:#666666;
+	/*color:#FFF;*/ 
+	/*font:12px Arial, Helvetica, sans-serif;*/
+	line-height:22px;
+    
+}
+
+
+/*   CONTENT   */
+
+#summary {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#FFF;
+	text-align:center;
+		
+}
+
+
+#skills {font-family:Arial, Helvetica, sans-serif;}
+
+#skills h1 {
+	text-align:center;
+	color:#FFF;
+	font-size: 30px;
+	
+	font-weight:bold;
+}
+
+#skills dl dt {
+	background-color:#666666;
+	background-size:cover;
+	color:#000;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+#skills dl dd {
+	text-align:center;
+	display:list-item;
+	list-style:none;	
+	color:#FFF;
+	font-size:18px;
+}
+
+#experience h1 {
+	text-align:center;
+	color:#FFF;
+	font-size: 30px;
+	
+	font-weight:bold;
+}
+
+#experience article h1{
+	text-align:center;
+	color:#FFF;
+}
+
+
+
+#experience article { 
+	margin: 15px 0 37px 95px; 
+	padding-left: 5px; 
+	position: relative; 
+	background-color:#666666;
+	background-size:cover;
+	text-align:center;
+	
+}
+#experience article:last-child {margin-bottom: 0}
+/*#experience article:hover { background: #fefefe;}*/
+
+#experience article h2 {display: inline; font-size: 25px; font-weight: bold; padding: 3px; color:#fff;}
+#experience article .start, #experience article .end {background: #666666; border-top: 1px dashed #ddd; font-size: 0.75em; left: -80px; padding: 4px 0; position: absolute; text-align: center; top: 19px; width: 60px; }
+#experience article .end {top: 0; border: none}
+#experience article p {font-size: 20px; line-height: 22px; margin: 10px 0 0; padding-left: 0; color:#fff;}
+
+#education h1{
+	text-align:center;
+	color:#FFF;
+	font-size: 33px;
+	
+	font-weight:bold;
+	
+	}
+
+#education h2 {
+	color:#FFF;
+	font-size: 26px;
+	text-align: center;
+}
+#education p {
+	color:#FFF;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#hobbies h1{
+	text-align:center;
+	color:#FFF;
+	font-size: 33px;
+	font-weight:bold;
+}
+#hobbies ul {
+	background-color:#666666;
+	background-size:cover; 
+	color:#fff; 
+	font-size: 24px; 
+}
+#hobbies ul li {margin: 10px 0; list-style: circle inside none; cursor: default}
+#hobbies ul li a {color:#FFF;}
+#hobbies ul li a:hover {background-color: #555; color: #eee; text-decoration: none}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:768px) {
+  .contact li {font-size: 0.7em;}
+}
+
+@media screen and (max-width:680px) {
+  #skills dl dt {display: block; float: none; margin: 0; text-align: left;}
+}
+
+@media screen and (max-width:500px) {
+  .contact li {border-right: medium none; display: block; float: none; font-size: 1em; overflow: hidden; padding: 6px 10px; text-align: left; width: auto;}
+}
+
+@media screen and (max-width:480px) {
+  #experience article {margin: 40px 0 37px;}
+  #experience article .start, #experience article .end {left: 0; top: -25px; border: none; border-right: 1px dashed #ddd;}
+  #experience article .end {left: 61px; top: -25px; border: none}
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+
+
+html{
+	background:#FFFFFF;
+}
+
+
+
+#switchform{
+	color:#000;
+}
+/*   HEADER   */
+
+header.vcard{
+	margin-bottom: 10px; 
+	overflow: hidden;
+	position:relative;
+	width: 600px;
+    height: 120px;
+    left: 350px;
+	
+}
+
+#summary p{
+	width: 600px;
+    height: 100px;
+    position: relative;
+    left: 350px;
+	display:inline;
+	vertical-align:middle;	
+}
+
+#skills dd {
+	position:relative;
+	display:inline;
+	left: 350px;
+}
+
+#experience article{
+	position:relative;
+	display:inline;
+	left: 350px;
+	
+}
+
+#education h2{
+	position:relative;
+	
+	left: 350px;
+}
+
+#education p{
+	position:relative;
+	left: 350px;
+}
+
+#hobbies ul{
+	position:relative;
+	display:inline;
+	left: 350px;
+}
